@@ -174,3 +174,12 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.shape {
+  stroke-dasharray: 1000 540;
+  stroke-dashoffset: -474;
+  stroke-width: 1px;
+  stroke: #19f6e8;
+  border-radius: 100%;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
